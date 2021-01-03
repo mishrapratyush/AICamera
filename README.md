@@ -84,6 +84,10 @@ az keyvault set-policy --name my-key-vault --spn $AZURE_CLIENT_ID --secret-permi
 ## Note:
 Sorry, the code repo is still kept private :)
 
+# Architecture Design and Data Flow
+The screenshot below has the high level architecture design and how the data flows thru the system
+![Alt text](DocImages/DesignFlow.png?raw=true "Event list")
+
 # The output
 Here is a screenshot from the DoorBell.Web app of the results:
 Events List:
